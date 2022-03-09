@@ -270,28 +270,30 @@
 
 // 18 ====== 170
 
-// let arr = [1, 3, -10, 8, 5, 6]
+// let arr = [1, 3, -10, 8, 5]
 // let R = 5
 // let arr1 = []
 // let arr2 = []
 // let natija = 0
+// let n = 0
+// let nn = 0
 
 
 // for (let i = 0; i < arr.length; i++) {
 //   if (arr[i] < R) {
 //     arr1[arr1.length] = arr[i]
-//     let n = arr1[0]
+//     n = arr1[0]
 //     for (let j = 0; j < arr1.length; j++) {
-//       if (n <= arr[j]) {
-//         natija = arr[j]
+//       if (n <= arr1[j]) {
+//         natija = arr1[j]
 //       }
 //     }
 //   } else if (arr[i] > R) {
 //     arr2[arr2.length] = arr[i]
-//     let n = arr2[0]
+//     nn = arr2[0]
 //     for (let k = 0; k < arr2.length; k++) {
-//       if (n >= arr[k]) {
-//         natija = arr[k]
+//       if (nn >= arr2[k]) {
+//         natija = arr2[k]
 //       }
 //     }
 //   }
@@ -300,6 +302,181 @@
 //   }
 // }
 
+// console.log(n);
+// console.log(nn);
+
+// if (n == nn) {
+//   natija = n
+//   console.log(natija);
+// }
+// else if (n + R <= nn) {
+//   natija = n
+//   console.log(natija);
+// } else if (n + R > nn) {
+//   natija = nn
+//   console.log(natija);
+// }
+
 // console.log(natija);
 // console.log(arr1);
 // console.log(arr2);
+
+
+
+// 19 ======= 171
+
+// let arr = [1, -10, 2, 1, 2, 5]
+// let arr1 = []
+// let natija = 0;
+
+// for (let i = 0; i < arr.length; i++) {
+//   for (let j = arr.length; j > i; j--) {
+//     if (arr[i] == arr[j]) {
+//       console.log(arr[j]);
+//       // arr = arr.pop(j)
+//     }
+//   }
+// }
+
+// console.log(arr);
+
+
+
+// 20 ======= 172
+
+// let arr1 = [true, -5];
+// let arr2 = [2, null];
+
+// for (let i = 0; i < arr1.length; i++) {
+//   for (let j = 0; j < arr2.length; j++) {
+//     if (i == j) {
+//       let n = arr1[i]
+//       arr1[i] = arr2[j]
+//       arr2[j] = n
+//     }
+//   }
+// }
+
+// console.log("arry1 ->", arr1);
+// console.log("arry2 ->", arr2);
+
+
+
+// 21 ======= 173
+
+// let arr = [2, 5, 6, 4, 4]
+// let arr2 = []
+
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] < 5) {
+//     arr2[arr2.length] = (2 * arr[i]);
+//   } else {
+//     arr2[arr2.length] = arr[i] / 2;
+//   }
+// }
+
+// console.log(arr2);
+
+
+
+// 22 ======= 174
+
+// let arr1 = [10, - 8]
+// let arr2 = [5, 1]
+// let arr3 = []
+
+// for (let i = 0; i < arr1.length; i++) {
+//   if (arr1[i] > arr2[i]) {
+//     arr3[arr3.length] = arr1[i]
+//   } else {
+//     arr3[arr3.length] = arr2[i]
+//   }
+// }
+
+// console.log(arr3);
+
+
+
+// 23 ======= 175
+
+// let arr = [2,10,5,8,12]
+// let arr2 = []
+
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] % 2 == 0) {
+//     arr2[arr2.length] = arr[i]
+//   }
+// }
+
+// console.log(arr2);
+
+
+
+// 24 ======= 176
+
+// let arr = [2, 10, 5, 8, 12]
+// let arr2 = []
+// let n = arr[0]
+
+// for (let i = 1; i <= arr.length; i++) {
+//   arr2[arr2.length] = n
+//   let nat = n + arr[i]
+//   n = nat
+// }
+
+// console.log(arr2);
+
+
+
+// 25 ======= 177
+
+// let arr = [2, 10, 5, 8, 12]
+// let arr2 = []
+// let n = 0
+
+// for (let i = 0; i < arr.length; i++) {
+//   n += arr[i]
+// }
+
+// let nat = n
+// for (let i = 0; i < arr.length; i++) {
+//   arr2[arr2.length] = nat
+//   nat -= arr[i]
+// }
+
+// console.log(arr2);
+
+
+
+// 26 ======= 179
+
+// let n = 6;
+// let natija = 0;
+
+// let k1 = 0;
+// let k2 = 1;
+
+// for (let i = 0; i <= n - 1; i++) {
+//   console.log(k2);
+//   let a = k2
+//   k2 = k1 + k2
+//   k1 = a
+// }
+
+
+
+// 27 ====== 180
+
+// let arr = [1, 12, 10, 5, 6, 7]
+// let min = 0;
+// let max = 0;
+
+// for (let i = 0; i < arr.length; i++) {
+//   for (let j = 0; j < arr.length; j++) {
+//     if (arr[j] < arr[i]) {
+//       min = arr[j]
+//     }
+//   }
+// }
+
+// console.log(min);
